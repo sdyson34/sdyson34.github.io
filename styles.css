@@ -1,0 +1,28 @@
+/* Structure */
+body {
+    background-image:url(images/the-void.png);
+}
+
+/* Images */
+img{
+    border-style: solid;
+    border-color: red;
+}
+
+/* Typography */
+h1 {
+    color:whitesmoke;
+    margin-left: 20px;
+}
+h2 {
+    color:aliceblue;
+}
+h3 {
+    color: wheat;
+}
+li {
+    color: white;
+}
+p {
+    color:silver;
+}
