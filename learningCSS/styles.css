@@ -1,0 +1,41 @@
+#main_content{
+    width: 70%;
+    margin: auto;
+    background: gray;
+    padding: 15px;
+}
+
+body {
+    background-image:url("images/burrito.png");
+}
+
+button {
+    color: bisque;
+    background: red;
+    border: 2px solid black;
+}
+
+button:hover{
+     color: burlywood;
+    background: darkred;
+    border: 2px solid black;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    padding: 0 30px;
+}
+
+#b {
+    color: black;
+}
+
+.a {
+    color: darkslategray;
+}
