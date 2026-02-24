@@ -1,0 +1,38 @@
+body {
+    background-image:url(Black_colour.jpg);
+}
+h1 {
+    color:whitesmoke;
+    margin-left: 20px;
+}
+h2 {
+    color:aliceblue;
+}
+h3 {
+    color: wheat;
+}
+li {
+    color: white;
+}
+p {
+    color:silver;
+}
+div{
+    width: 70%;
+    margin: auto;
+    background: transparent;
+    padding: 15px;
+}
+th{
+    color: antiquewhite;
+    border: solid;
+    border-color: beige;
+}
+tr{
+    color: azure;
+    border: solid;
+    border-color: beige;
+}
+img{
+    border:5px solid antiquewhite ;
+}

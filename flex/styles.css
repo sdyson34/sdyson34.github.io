@@ -1,0 +1,35 @@
+#container {
+    display: flex;
+}
+
+#div_1 {
+    background:royalblue ;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+#div_2 {
+    background: royalblue;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+#container2 {
+    display: flex;
+}
+
+#div_3{
+    background: red;
+    margin: 10px;
+    text-align: center;
+    flex: 2;
+}
+
+#div_4{
+    background: red;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
