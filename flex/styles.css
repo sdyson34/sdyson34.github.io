@@ -1,35 +1,33 @@
-#container {
-    display: flex;
+section {
+    background: whitesmoke;
+    color: darkslategray;
+    border: 5px solid teal;
+    padding: 15px;
+    width: 100%;
+    margin: 5px;
 }
 
-#div_1 {
-    background:royalblue ;
-    margin: 10px;
-    text-align: center;
-    flex: 1;
+/*use these styles on large screens*/
+@media screen and (min-width: 768px) {
+    .columns{
+        display: flex;
+    }
+
+    body {
+        background-image:url(images/unnamed.png);
+    }
+    .one{
+        flex: 1;
+    }
+
+    .two{
+        flex: 2;
+    }
+    .three{
+        flex: 3;
+    }
+    .four{
+        flex: 4;
+    }
 }
 
-#div_2 {
-    background: royalblue;
-    margin: 10px;
-    text-align: center;
-    flex: 1;
-}
-
-#container2 {
-    display: flex;
-}
-
-#div_3{
-    background: red;
-    margin: 10px;
-    text-align: center;
-    flex: 2;
-}
-
-#div_4{
-    background: red;
-    margin: 10px;
-    text-align: center;
-    flex: 1;
-}
