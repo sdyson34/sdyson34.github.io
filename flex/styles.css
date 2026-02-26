@@ -1,4 +1,4 @@
-section {
+.a {
     background: whitesmoke;
     color: darkslategray;
     border: 5px solid teal;
@@ -7,15 +7,31 @@ section {
     margin: 5px;
 }
 
+.b {
+    background: red;
+    color: darkslategray;
+    border: 5px solid teal;
+    padding: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+.c {
+    background: grey;
+    color: wheat    ;
+    border: 5px solid teal;
+    padding: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+
 /*use these styles on large screens*/
 @media screen and (min-width: 768px) {
     .columns{
         display: flex;
     }
 
-    body {
-        background-image:url(images/unnamed.png);
-    }
     .one{
         flex: 1;
     }
@@ -31,3 +47,20 @@ section {
     }
 }
 
+.d {
+    background: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.e {
+        background: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.f {
+        background: aqua;
+    width: 200px;
+    height: 200px;
+}
