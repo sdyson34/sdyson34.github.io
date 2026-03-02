@@ -47,20 +47,35 @@
     }
 }
 
+#oneone{
+    width: 70%;
+    margin: auto;
+}
+
 .d {
     background: aqua;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
 }
 
 .e {
         background: aqua;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
 }
 
 .f {
         background: aqua;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
 }
+
