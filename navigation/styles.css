@@ -1,0 +1,41 @@
+/*structur*/
+div {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+/*nav*/
+li {
+    background-color: darkgrey;
+    border-style: groove;
+}
+
+li:hover {
+    background-color: lightgray;
+    border-style: double;
+    border-color: black;
+}
+
+nav ul {
+    padding-left: 0; /*removes indentation*/
+}
+
+nav li {
+    list-style-type: none;/*removes bulletpoints*/
+}
+
+nav a {
+    text-decoration: none; /*removes underline*/
+    display: block;
+    padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .columns {
+        display: flex;
+    }
+    .one{
+        flex: 1;
+    }
+}

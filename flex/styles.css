@@ -25,6 +25,27 @@
     margin: 5px;
 }
 
+#sidebar {
+    background-color: slategray;
+    width: 20%;
+}
+
+.content {
+    width:100%;
+}
+
+#oneone{
+    margin: auto;
+}
+
+.d {
+    background: aqua;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+    width:33%;
+    height: 200px;
+    margin: 20px;
+}
 
 /*use these styles on large screens*/
 @media screen and (min-width: 768px) {
@@ -47,35 +68,18 @@
     }
 }
 
-#oneone{
-    width: 70%;
-    margin: auto;
+@keyframes bounse {
+    0% {background-color: red;}
+    25% {background-color: orangered;}
+    50% {background-color: yellow;}
+    80% {background-color: green;}
 }
 
-.d {
-    background: aqua;
-    width: 500px;
-    height: 500px;
-    margin: 30px;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px;
+#ball {
+  background-color: red;
+  animation-name: bounse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  width:100px;
+  height:100px;
 }
-
-.e {
-        background: aqua;
-    width: 500px;
-    height: 500px;
-    margin: 30px;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px;
-}
-
-.f {
-        background: aqua;
-    width: 500px;
-    height: 500px;
-    margin: 30px;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px;
-}
-
