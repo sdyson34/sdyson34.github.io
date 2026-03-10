@@ -8,7 +8,8 @@ div {
 /*nav*/
 li {
     background-color: darkgrey;
-    border-style: groove;
+    border-style: double;
+    background-color: grey;
 }
 
 li:hover {

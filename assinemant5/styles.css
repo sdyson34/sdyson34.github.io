@@ -1,0 +1,30 @@
+@media screen and (min-width:768px) {
+    .columns {
+        display: flex;
+    }
+    .one{
+        flex: 1;
+    }
+}
+.columns {
+    width: 75%;
+    text-align: center;
+}
+section {
+    width: 75%;
+    margin: 10px;
+}
+ li {
+    background-color: aqua;
+    border-style: double;
+ }
+
+ li :hover {
+    background-color: aquamarine;
+    border-style: double;
+ }
+nav {
+    text-decoration: none; /*removes underline*/
+    display: block;
+    padding: 10px;
+}
