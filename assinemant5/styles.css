@@ -1,3 +1,63 @@
+
+#content {
+    width: 75%;
+    text-align: center;
+    padding: 5px;
+    margin:auto;
+}
+section {
+    margin: 10px;
+}
+
+nav ul {
+    padding-left:0;
+}
+ a {
+    background-color: rgb(134, 84, 183);
+    border-style: double;
+    color: black;
+ }
+
+ a:hover {
+    background-color: lightslategray;
+    border-style: double;
+    color: black;
+ }
+nav {
+    text-align: center;
+
+}
+
+body {
+  background-image: url("images\ \(2\).png");
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+nav li {
+    list-style-type: none;
+}
+
+
+p {
+    color: aliceblue;
+}   
+
+img {
+    max-width:100%;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+p {
+    background-color: darkblue;
+    padding: 10px;
+}
+
 @media screen and (min-width:768px) {
     .columns {
         display: flex;
@@ -5,26 +65,4 @@
     .one{
         flex: 1;
     }
-}
-.columns {
-    width: 75%;
-    text-align: center;
-}
-section {
-    width: 75%;
-    margin: 10px;
-}
- li {
-    background-color: aqua;
-    border-style: double;
- }
-
- li :hover {
-    background-color: aquamarine;
-    border-style: double;
- }
-nav {
-    text-decoration: none; /*removes underline*/
-    display: block;
-    padding: 10px;
 }
